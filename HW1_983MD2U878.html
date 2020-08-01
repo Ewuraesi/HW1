@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+
+        
+        body {
+           
+            padding: 20px;
+            margin: 5px;
+            
+        }
+
+        .form {
+            width: 80%;
+            background-color: rgb(236, 232, 232);
+            padding: 25px;
+            font-family: sans-serif;
+            font-size: 15px;
+            
+        }
+
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 12%;
+            background-color: #4caf50;
+            color: white;
+            padding: 12px;
+            margin: 8px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        textarea {
+            background-color: white;
+            width: 95%;
+            height: 100px;
+            padding: 18px;
+            border-radius: 4px;
+            box-size: border-box;
+
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div>
+        <form class="form">
+            <label for="fname">First Name</label><br>
+            <input type="text" placeholder="Your name.." name="First Name">
+            <br><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" placeholder="Your last name.." name="Last Name">
+            <br>
+            <label for="fname">Country</label><br>
+            <select class="" name="Country">
+                <option value="Australia">Australia</option>
+            </select><br><br>
+            <label for="fname">Subject</label><br><br>
+            <textarea>Write something..</textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
